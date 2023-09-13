@@ -1,0 +1,53 @@
+body {
+    font-family: 'roboto';  
+    background-color: lightgray;
+}
+.post {
+    margin: auto;
+    width: 400px;
+    background-color: white;
+}
+.header {
+    width: 100%;
+    display: flex;
+    font-size: 8px;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerlogo {
+    float: left;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.headertitle {
+    line-height: 5px;
+}
+
+.header-menu {
+    margin-left: auto;
+    font-size: 15px;
+    float: right;
+    padding-right: 10px;
+}
+
+.contenedor-img{
+    height: 600px;
+    margin-bottom: -20px;
+}
+#img{
+    width: 400px;
+}
+.post-text {
+    font-size: 14px;
+    padding: 10px;
+}
+.botones {
+    font-size: 25px;
+    letter-spacing: 4px;
+}
+.fa-bookmark {
+    float:right
+}
+
